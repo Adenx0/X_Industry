@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "x_industry:advancedcircuitboard"
+    },
+    "1": {
+      "item": "minecraft:ice"
+    },
+    "2": {
+      "item": "x_industry:advancedcircuitboard"
+    },
+    "3": {
+      "item": "x_industry:particle_collector"
+    },
+    "4": {
+      "item": "x_industry:particle"
+    },
+    "5": {
+      "item": "x_industry:particle_synthesizer"
+    },
+    "6": {
+      "item": "x_industry:zip_blue_ice"
+    },
+    "7": {
+      "item": "x_industry:zip_blue_ice"
+    },
+    "8": {
+      "item": "x_industry:zip_blue_ice"
+    }
+  },
+  "result": {
+    "item": "x_industry:ice_machine",
+    "count": 1
+  }
+}

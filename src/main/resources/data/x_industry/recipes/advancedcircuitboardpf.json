@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "x_industry:silver"
+    },
+    "1": {
+      "item": "x_industry:wireway"
+    },
+    "2": {
+      "item": "x_industry:silver"
+    },
+    "3": {
+      "item": "x_industry:circuitboard"
+    },
+    "4": {
+      "item": "minecraft:redstone_block"
+    },
+    "5": {
+      "item": "x_industry:circuitboard"
+    },
+    "6": {
+      "item": "x_industry:silver"
+    },
+    "7": {
+      "item": "x_industry:copperingot"
+    },
+    "8": {
+      "item": "x_industry:silver"
+    }
+  },
+  "result": {
+    "item": "x_industry:advancedcircuitboard",
+    "count": 1
+  }
+}

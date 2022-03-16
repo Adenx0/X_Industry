@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "x_industry:copperingot"
+    },
+    "1": {
+      "item": "x_industry:copperingot"
+    },
+    "2": {
+      "item": "x_industry:copperingot"
+    }
+  },
+  "result": {
+    "item": "x_industry:wireway",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "x_industry:copperingot"
+    },
+    {
+      "item": "x_industry:copperingot"
+    },
+    {
+      "item": "x_industry:copperingot"
+    },
+    {
+      "item": "x_industry:copperingot"
+    },
+    {
+      "item": "x_industry:copperingot"
+    },
+    {
+      "item": "x_industry:copperingot"
+    },
+    {
+      "item": "x_industry:copperingot"
+    },
+    {
+      "item": "x_industry:copperingot"
+    },
+    {
+      "item": "x_industry:copperingot"
+    }
+  ],
+  "result": {
+    "item": "x_industry:copper_block",
+    "count": 1
+  }
+}

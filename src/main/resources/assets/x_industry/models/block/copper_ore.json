@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "x_industry:blocks/tong_kuang_shi_",
+    "up": "x_industry:blocks/tong_kuang_shi_",
+    "north": "x_industry:blocks/tong_kuang_shi_",
+    "east": "x_industry:blocks/tong_kuang_shi_",
+    "south": "x_industry:blocks/tong_kuang_shi_",
+    "west": "x_industry:blocks/tong_kuang_shi_",
+    "particle": "x_industry:blocks/tong_kuang_shi_"
+  }
+}

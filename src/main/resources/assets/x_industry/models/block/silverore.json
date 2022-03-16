@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "x_industry:blocks/yin_kuang_",
+    "up": "x_industry:blocks/yin_kuang_",
+    "north": "x_industry:blocks/yin_kuang_",
+    "east": "x_industry:blocks/yin_kuang_",
+    "south": "x_industry:blocks/yin_kuang_",
+    "west": "x_industry:blocks/yin_kuang_",
+    "particle": "x_industry:blocks/yin_kuang_"
+  }
+}

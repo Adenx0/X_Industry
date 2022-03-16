@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "x_industry:tin"
+    },
+    "1": {
+      "item": "x_industry:particle"
+    },
+    "2": {
+      "item": "x_industry:tin"
+    },
+    "3": {
+      "item": "x_industry:particle_collector"
+    },
+    "4": {
+      "item": "x_industry:particle"
+    },
+    "5": {
+      "item": "x_industry:particle_collector"
+    },
+    "6": {
+      "item": "x_industry:silver"
+    },
+    "7": {
+      "item": "x_industry:particle_collector"
+    },
+    "8": {
+      "item": "x_industry:silver"
+    }
+  },
+  "result": {
+    "item": "x_industry:particle_synthesizer",
+    "count": 1
+  }
+}

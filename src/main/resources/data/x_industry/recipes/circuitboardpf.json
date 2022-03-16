@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "x_industry:copperingot"
+    },
+    "1": {
+      "item": "x_industry:wireway"
+    },
+    "2": {
+      "item": "x_industry:copperingot"
+    },
+    "3": {
+      "item": "minecraft:iron_ingot"
+    },
+    "4": {
+      "item": "x_industry:wireway"
+    },
+    "5": {
+      "item": "minecraft:iron_ingot"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "x_industry:circuitboard",
+    "count": 1
+  }
+}

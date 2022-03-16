@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="x_industry"
+version="0.0.7"
+displayName="X Industry"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://www.mcbbs.net/thread-1297713-1-1.html"
+authors="Adenx Ts"
+
+[[dependencies.x_industry]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

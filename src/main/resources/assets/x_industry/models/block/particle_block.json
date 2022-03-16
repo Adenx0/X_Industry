@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "x_industry:blocks/zhi_zuo_zhong_",
+    "up": "x_industry:blocks/li_zi_",
+    "north": "x_industry:blocks/zhi_zuo_zhong_",
+    "east": "x_industry:blocks/zhi_zuo_zhong_",
+    "south": "x_industry:blocks/zhi_zuo_zhong_",
+    "west": "x_industry:blocks/zhi_zuo_zhong_",
+    "particle": "x_industry:blocks/zhi_zuo_zhong_"
+  }
+}

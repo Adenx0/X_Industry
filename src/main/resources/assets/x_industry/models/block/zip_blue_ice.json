@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "x_industry:blocks/ya_suo_lan_bing_",
+    "up": "x_industry:blocks/ya_suo_lan_bing_",
+    "north": "x_industry:blocks/ya_suo_lan_bing_",
+    "east": "x_industry:blocks/ya_suo_lan_bing_",
+    "south": "x_industry:blocks/ya_suo_lan_bing_",
+    "west": "x_industry:blocks/ya_suo_lan_bing_",
+    "particle": "x_industry:blocks/ya_suo_lan_bing_"
+  }
+}

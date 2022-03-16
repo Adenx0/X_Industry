@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "x_industry:items/tong_fu_"
+  }
+}

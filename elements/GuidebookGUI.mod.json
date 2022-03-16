@@ -1,0 +1,139 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "机器之书",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "机器之书",
+          "x": 198,
+          "y": 51
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "这个mod超级好玩",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "这个mod超级好玩",
+          "x": 135,
+          "y": 69
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "相信我",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "相信我",
+          "x": 134,
+          "y": 79
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "我添加了新的矿物",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "我添加了新的矿物",
+          "x": 134,
+          "y": 90
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "前期最重要的事情就是挖矿，加油，骚年",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "前期最重要的事情就是挖矿，加油，骚年",
+          "x": 134,
+          "y": 101
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "放心吧，你打开这个GUI的时候会暂停游戏",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "放心吧，你打开这个GUI的时候会暂停游戏",
+          "x": 134,
+          "y": 114
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "不然我很担心在你看GUI的时候错过了白天",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "不然我很担心在你看GUI的时候错过了白天",
+          "x": 134,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "你或许认为现在的GUI内容很少，不要着急",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "你或许认为现在的GUI内容很少，不要着急",
+          "x": 134,
+          "y": 138
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "作者正在加急更新中",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "作者正在加急更新中",
+          "x": 134,
+          "y": 152
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
