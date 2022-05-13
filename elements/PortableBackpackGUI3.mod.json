@@ -1,0 +1,49 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "�ص���ҳ",
+          "onClick": {
+            "name": "BacktoGUI1"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "�ص���ҳ",
+          "x": 131,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "����ҳ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "����ҳ",
+          "x": 205,
+          "y": 100
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

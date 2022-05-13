@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "x_industry:copper_block",
+    "x_industry:copper_ore",
+    "x_industry:silverore",
+    "x_industry:tinore"
+  ]
+}

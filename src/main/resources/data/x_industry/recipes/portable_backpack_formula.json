@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "x_industry:tin"
+    },
+    "1": {
+      "item": "x_industry:guidebook"
+    },
+    "2": {
+      "item": "x_industry:silver"
+    },
+    "3": {
+      "item": "x_industry:copperingot"
+    },
+    "4": {
+      "item": "x_industry:circuitboard"
+    },
+    "5": {
+      "item": "x_industry:copperingot"
+    },
+    "6": {
+      "item": "x_industry:advancedcircuitboard"
+    },
+    "7": {
+      "item": "x_industry:advancedcircuitboard"
+    },
+    "8": {
+      "item": "x_industry:advancedcircuitboard"
+    }
+  },
+  "result": {
+    "item": "x_industry:portable_backpack",
+    "count": 1
+  }
+}

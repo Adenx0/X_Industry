@@ -4,11 +4,14 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="x_industry"
-version="0.0.7"
+version="0.1.1"
 displayName="X Industry"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://www.mcbbs.net/thread-1297713-1-1.html"
+displayURL="https://mcreator.net"
 authors="Adenx Ts"
+description='''
+用MCR制作的简易科技模组
+'''
 
 [[dependencies.x_industry]]
     modId="minecraft"

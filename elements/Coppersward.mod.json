@@ -1,11 +1,11 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "tong_jian_",
     "customModelName": "Normal",
-    "name": "Í­½£",
+    "name": "Í­ï¿½ï¿½",
     "specialInfo": [],
     "creativeTab": {
       "value": "TOOLS"

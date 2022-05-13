@@ -1,0 +1,9 @@
+{
+  "parent": "x_industry:custom/ji_qi_di_zuo_",
+  "textures": {
+    "all": "x_industry:blocks/down",
+    "particle": "x_industry:blocks/down",
+    "0": "x_industry:blocks/down",
+    "1": "x_industry:blocks/up"
+  }
+}

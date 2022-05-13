@@ -1,0 +1,138 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "��һ�£�����",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "��һ�£�����",
+          "x": 195,
+          "y": 50
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "����������������",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "����������������",
+          "x": 139,
+          "y": 68
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "�������һ���������ҵ�����ͭ��ʯ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "�������һ���������ҵ�����ͭ��ʯ",
+          "x": 139,
+          "y": 81
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "����������ʯ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "����������ʯ",
+          "x": 139,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "���⣬��������ʵ��ԭ��",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "���⣬��������ʵ��ԭ��",
+          "x": 140,
+          "y": 106
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "������ṩ��һ������",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "������ṩ��һ������",
+          "x": 140,
+          "y": 118
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "���磬���������������ɻ�ÿ��ﶧ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "���磬���������������ɻ�ÿ��ﶧ",
+          "x": 140,
+          "y": 132
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "�ص���ҳ",
+          "onClick": {
+            "name": "GuidebookDangYouJianDianJiKongQiShi"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "�ص���ҳ",
+          "x": 139,
+          "y": 176
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "��һҳ",
+          "width": 40,
+          "height": 20,
+          "name": "��һҳ",
+          "x": 243,
+          "y": 175
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

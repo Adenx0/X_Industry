@@ -118,7 +118,7 @@ public class CopperOreBlock extends XIndustryModElements.ModElement {
 				}
 			};
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 5)).range(50)
-					.square().func_242731_b(10);
+					.square().func_242731_b(30);
 			event.getRegistry().register(feature.setRegistryName("copper_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("x_industry:copper_ore"), configuredFeature);
 		}

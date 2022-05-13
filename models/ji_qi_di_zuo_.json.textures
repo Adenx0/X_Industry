@@ -3,7 +3,7 @@
     "default": {
       "map": {
         "0": "down",
-        "1": "texture2"
+        "1": "up"
       },
       "name": "default"
     }

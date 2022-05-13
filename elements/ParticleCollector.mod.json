@@ -1,11 +1,11 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "li_zi_ji_he_qi_",
     "customModelName": "Normal",
-    "name": "Á£×Ó¼¯ºÏÆ÷",
+    "name": "ï¿½ï¿½ï¿½Ó¼ï¿½ï¿½ï¿½ï¿½ï¿½",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:JiChuWuPin"
@@ -35,6 +35,12 @@
     "onDroppedByPlayer": {
       "name": "ParticleCollectorDangWuPinZaiShouShangMeiKeFaSheng"
     },
-    "hasDispenseBehavior": false
+    "hasDispenseBehavior": false,
+    "isFood": false,
+    "nutritionalValue": 0,
+    "saturation": 0.30000001192092896,
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "eat"
   }
 }

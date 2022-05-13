@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "x_industry:items/zhe_shi_wei_shi_yao_ni_"
+  }
+}

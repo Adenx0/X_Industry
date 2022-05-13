@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:green_dye"
+    },
+    "1": {
+      "item": "x_industry:particle"
+    },
+    "2": {
+      "item": "minecraft:green_dye"
+    },
+    "3": {
+      "item": "x_industry:particle"
+    },
+    "4": {
+      "item": "x_industry:particle"
+    },
+    "5": {
+      "item": "x_industry:particle"
+    },
+    "6": {
+      "item": "minecraft:green_dye"
+    },
+    "7": {
+      "item": "x_industry:particle"
+    },
+    "8": {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "result": {
+    "item": "minecraft:slime_ball",
+    "count": 1
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "block",
   "definition": {
     "texture": "ya_suo_lan_bing_",
@@ -32,14 +32,17 @@
         "subtract": false
       }
     ],
-    "name": "х╚вт╤╞╡З╠Ы╩З",
-    "specialInfo": [],
-    "hardness": 1.0,
+    "name": "х╚О©╫т╤О©╫О©╫О©╫О©╫О©╫О©╫О©╫",
+    "specialInfo": [
+      "О©╫О©╫О©╫ц╨О©╫й╞О©╫О©╫О©╫О©╫",
+      "ц©О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫"
+    ],
+    "hardness": 1.5,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:JiChuWuPin"
+      "value": "CUSTOM:Machines"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -77,21 +80,21 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""
     },
-    "stepSound": {
-      "value": ""
-    },
-    "placeSound": {
+    "fallSound": {
       "value": ""
     },
     "hitSound": {
       "value": ""
     },
-    "fallSound": {
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
       "value": ""
     },
     "luminance": 0,
@@ -131,6 +134,7 @@
         "value": "Blocks.STONE"
       }
     ],
+    "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,

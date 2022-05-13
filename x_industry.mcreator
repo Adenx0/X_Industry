@@ -419,39 +419,380 @@
       "locked_code": false,
       "registry_name": "particle_synthesizer_making",
       "path": "~/formula-pei_fang"
+    },
+    {
+      "name": "GuidebookGUI2",
+      "type": "gui",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guidebook_gui_2",
+      "path": "~/Guide book"
+    },
+    {
+      "name": "GUI1to2",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui_1to_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Guide book"
+    },
+    {
+      "name": "PortableBackpack",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_backpack",
+      "path": "~/machine/PortableBackpack"
+    },
+    {
+      "name": "PortableBackpackGUI1",
+      "type": "gui",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_backpack_gui_1",
+      "path": "~/machine/PortableBackpack"
+    },
+    {
+      "name": "PortableBackpackDangYouJianDianJiKongQiShi",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_backpack_dang_you_jian_dian_ji_kong_qi_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine/PortableBackpack"
+    },
+    {
+      "name": "PortableBackpackGUI2",
+      "type": "gui",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_backpack_gui_2",
+      "path": "~/machine/PortableBackpack"
+    },
+    {
+      "name": "PortableBackpackGUI1to2",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_backpack_gui_1to_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine/PortableBackpack"
+    },
+    {
+      "name": "Slimeball",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimeball",
+      "path": "~/formula-pei_fang"
+    },
+    {
+      "name": "BedRock",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bed_rock",
+      "path": "~/formula-pei_fang"
+    },
+    {
+      "name": "KnowledgeBook",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knowledge_book",
+      "path": "~/formula-pei_fang"
+    },
+    {
+      "name": "BacktoGUI1",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backto_gui_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine/PortableBackpack"
+    },
+    {
+      "name": "PortableBackpackGUI3",
+      "type": "gui",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_backpack_gui_3",
+      "path": "~/machine/PortableBackpack"
+    },
+    {
+      "name": "PortableBackpackGUI2To3",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_backpack_gui_2_to_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/machine/PortableBackpack"
+    },
+    {
+      "name": "AchievementCompletor",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "achievement_completor",
+      "path": "~/machine/Achievement completor"
+    },
+    {
+      "name": "WhyIsThat",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "why_is_that",
+      "path": "~/machine/Achievement completor"
+    },
+    {
+      "name": "WhyIsThatDangYouJianDianJiKongQiShi",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "why_is_that_dang_you_jian_dian_ji_kong_qi_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/machine/Achievement completor"
+    },
+    {
+      "name": "WhyIsThatTrue",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "why_is_that_true",
+      "path": "~/machine/Achievement completor"
+    },
+    {
+      "name": "PortableBackpackFormula",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_backpack_formula",
+      "path": "~/machine/PortableBackpack"
+    },
+    {
+      "name": "CopperSilverAlloy",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_silver_alloy",
+      "path": "~/alloy/CopperSilver"
+    },
+    {
+      "name": "AluminumDangWuPinZaiBeiBaoZhongMeiKeFaSheng",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum_dang_wu_pin_zai_bei_bao_zhong_mei_ke_fa_sheng",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/base ore/Aluminum"
+    },
+    {
+      "name": "Aluminum",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminum",
+      "path": "~/base ore/Aluminum"
+    },
+    {
+      "name": "MachineBase",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "machine_base",
+      "path": "~/machine/machine base"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.x_industry.copper_block": "Í­¿é",
+      "item.x_industry.why_is_that_true": "Why Is That True",
+      "block.x_industry.copper_block": "Í­ï¿½ï¿½",
       "item.x_industry.advancedcircuitboard": "Advancedcircuitboard",
-      "item.x_industry.coppershovel": "Í­²ù",
-      "item.x_industry.silver": "Òø¶§",
-      "itemGroup.tabkuangwu": "¿óÎï",
-      "itemGroup.tabmachines": "»úÆ÷",
-      "item.x_industry.copperingot": "Í­¶§",
-      "item.x_industry.tin": "Îı",
-      "block.x_industry.zip_blue_ice": "Ñ¹ËõÀ¶±ù",
-      "item.x_industry.copperpickaxe": "Í­¸ä(¸ä»÷)",
-      "block.x_industry.copper_ore": "Í­¿ó",
-      "item.x_industry.copperhoe": "Í­³ú",
-      "item.x_industry.raw_copper": "´ÖÍ­",
-      "item.x_industry.particle": "Á£×Ó",
-      "item.x_industry.particle_synthesizer": "Á£×ÓºÏ³ÉÆ÷",
-      "item.x_industry.wireway": "µçÏß",
-      "item.x_industry.copperaxe": "Í­¸«",
-      "item.x_industry.particle_collector": "Á£×Ó¼¯ºÏÆ÷",
-      "item.x_industry.guidebook": "¹¤ÒµÖ®Êé",
-      "block.x_industry.particle_block": "Á£×Ó¿é",
-      "block.x_industry.tinore": "Îı¿óÊ¯",
-      "block.x_industry.silverore": "Silverore",
-      "item.x_industry.circuitboard": "µçÂ·°å",
-      "itemGroup.tabmod_block": "Mod Block",
-      "item.x_industry.coppersward": "Í­½£",
-      "itemGroup.tabbase_item": "»ù´¡ÎïÆ·",
-      "block.x_industry.ice_machine": "È«×Ô¶¯²ú±ù»ú"
+      "item.x_industry.coppershovel": "Í­ï¿½ï¿½",
+      "item.x_industry.silver": "ï¿½ï¿½ï¿½ï¿½",
+      "itemGroup.tabkuangwu": "ï¿½ï¿½ï¿½ï¿½",
+      "itemGroup.tabmachines": "ï¿½ï¿½ï¿½ï¿½",
+      "block.x_industry.achievement_completor": "Achievement Completor",
+      "item.x_industry.copperingot": "Í­ï¿½ï¿½",
+      "item.x_industry.why_is_that": "Why Is That",
+      "item.x_industry.portable_backpack": "ï¿½ï¿½Ğ¯Ê½ï¿½ï¿½ï¿½ï¿½",
+      "item.x_industry.tin": "ï¿½ï¿½ï¿½ï¿½",
+      "block.x_industry.zip_blue_ice": "Ñ¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
+      "item.x_industry.copperpickaxe": "Í­ï¿½ï¿½(ï¿½ï¿½ï¿½)",
+      "block.x_industry.copper_ore": "Í­ï¿½ï¿½",
+      "item.x_industry.copperhoe": "Í­ï¿½ï¿½",
+      "block.x_industry.machine_base": "Machine Base",
+      "item.x_industry.raw_copper": "ï¿½ï¿½Í­",
+      "item.x_industry.particle": "ï¿½ï¿½ï¿½ï¿½",
+      "item.x_industry.particle_synthesizer": "ï¿½ï¿½ï¿½ÓºÏ³ï¿½ï¿½ï¿½",
+      "item.x_industry.wireway": "ï¿½ï¿½ï¿½ï¿½",
+      "item.x_industry.copperaxe": "Í­ï¿½ï¿½",
+      "item.x_industry.particle_collector": "ï¿½ï¿½ï¿½Ó¼ï¿½ï¿½ï¿½ï¿½ï¿½",
+      "item.x_industry.guidebook": "ï¿½ï¿½ÒµÖ®ï¿½ï¿½-ï¿½ï¿½ï¿½ßµÄ»ï¿½",
+      "item.x_industry.aluminum": "é“",
+      "block.x_industry.particle_block": "ï¿½ï¿½ï¿½Ó¿ï¿½",
+      "item.x_industry.copper_silver_alloy": "é“œé“¶åˆé‡‘",
+      "block.x_industry.tinore": "ï¿½ï¿½ï¿½ï¿½",
+      "block.x_industry.silverore": "ï¿½ï¿½ï¿½ï¿½",
+      "item.x_industry.circuitboard": "ï¿½ï¿½Â·ï¿½ï¿½",
+      "itemGroup.tabmod_block": "ï¿½ï¿½ï¿½ï¿½",
+      "item.x_industry.coppersward": "Í­ï¿½ï¿½",
+      "itemGroup.tabbase_item": "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ·",
+      "block.x_industry.ice_machine": "È«ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
     }
   },
   "foldersRoot": {
@@ -475,7 +816,12 @@
       },
       {
         "name": "base ore",
-        "children": []
+        "children": [
+          {
+            "name": "Aluminum",
+            "children": []
+          }
+        ]
       },
       {
         "name": "tools-gong_ju",
@@ -483,21 +829,44 @@
       },
       {
         "name": "machine",
-        "children": []
+        "children": [
+          {
+            "name": "PortableBackpack",
+            "children": []
+          },
+          {
+            "name": "Achievement completor",
+            "children": []
+          },
+          {
+            "name": "machine base",
+            "children": []
+          }
+        ]
       },
       {
         "name": "block",
         "children": []
+      },
+      {
+        "name": "alloy",
+        "children": [
+          {
+            "name": "CopperSilver",
+            "children": []
+          }
+        ]
       }
     ]
   },
   "workspaceSettings": {
     "modid": "x_industry",
     "modName": "X Industry",
-    "version": "0.0.7",
+    "version": "0.1.1",
+    "description": "ç”¨MCRåˆ¶ä½œçš„ç®€æ˜“ç§‘æŠ€æ¨¡ç»„",
     "author": "Adenx Ts",
-    "websiteURL": "https://www.mcbbs.net/thread-1297713-1-1.html",
-    "license": "Academic Free License v3.0",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -509,5 +878,5 @@
     "modElementsPackage": "net.mcreator.xindustry",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100354000
+  "mcreatorVersion": 202200118711
 }

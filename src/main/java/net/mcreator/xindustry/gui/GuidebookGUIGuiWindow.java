@@ -5,12 +5,16 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.gui.widget.button.Button;
 import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.Minecraft;
+
+import net.mcreator.xindustry.XIndustryMod;
 
 import java.util.HashMap;
 
@@ -77,19 +81,24 @@ public class GuidebookGUIGuiWindow extends ContainerScreen<GuidebookGUIGui.GuiCo
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "\u673A\u5668\u4E4B\u4E66", 72, 14, -12829636);
-		this.font.drawString(ms, "\u8FD9\u4E2Amod\u8D85\u7EA7\u597D\u73A9", 9, 32, -12829636);
-		this.font.drawString(ms, "\u76F8\u4FE1\u6211", 8, 42, -12829636);
-		this.font.drawString(ms, "\u6211\u6DFB\u52A0\u4E86\u65B0\u7684\u77FF\u7269", 8, 53, -12829636);
-		this.font.drawString(ms, "\u524D\u671F\u6700\u91CD\u8981\u7684\u4E8B\u60C5\u5C31\u662F\u6316\u77FF\uFF0C\u52A0\u6CB9\uFF0C\u9A9A\u5E74", 8,
-				64, -12829636);
-		this.font.drawString(ms, "\u653E\u5FC3\u5427\uFF0C\u4F60\u6253\u5F00\u8FD9\u4E2AGUI\u7684\u65F6\u5019\u4F1A\u6682\u505C\u6E38\u620F", 8, 77,
+		this.font.drawString(ms, "\uFFFD\uFFFD\uFFFD\uFFFD\u05AE\uFFFD\uFFFD", 72, 14, -12829636);
+		this.font.drawString(ms, "\uFFFD\uFFFD\uFFFDmod\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD", 9, 32, -12829636);
+		this.font.drawString(ms, "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD", 8, 42, -12829636);
+		this.font.drawString(ms, "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u00B5\u013F\uFFFD\uFFFD\uFFFD", 8, 53, -12829636);
+		this.font.drawString(ms,
+				"\u01F0\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u04AA\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u06BF\uDB4E\uDF3C\uFFFD\uFFFD\u0363\uFFFD\u0267\uFFFD\uFFFD",
+				8, 64, -12829636);
+		this.font.drawString(ms,
+				"\uFFFD\uFFFD\uFFFD\u0130\u0263\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDGUI\uFFFD\uFFFD\u02B1\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u0363\uFFFD\uFFFD\u03F7",
+				8, 77, -12829636);
+		this.font.drawString(ms,
+				"\uFFFD\uFFFD\u023B\uFFFD\u04BA\u0735\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u3FF4GUI\uFFFD\uFFFD\u02B1\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u02F0\uFFFD\uFFFD\uFFFD",
+				8, 88, -12829636);
+		this.font.drawString(ms,
+				"\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u03AA\uFFFD\uFFFD\uFFFD\u06B5\uFFFDGUI\uFFFD\uFFFD\uFFFD\u077A\uFFFD\uFFFD\u0663\uFFFD\uFFFD\uFFFD\u04AA\uFFFD\u017C\uFFFD",
+				8, 101, -12829636);
+		this.font.drawString(ms, "\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u06BC\u04FC\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD", 8, 115,
 				-12829636);
-		this.font.drawString(ms, "\u4E0D\u7136\u6211\u5F88\u62C5\u5FC3\u5728\u4F60\u770BGUI\u7684\u65F6\u5019\u9519\u8FC7\u4E86\u767D\u5929", 8, 88,
-				-12829636);
-		this.font.drawString(ms, "\u4F60\u6216\u8BB8\u8BA4\u4E3A\u73B0\u5728\u7684GUI\u5185\u5BB9\u5F88\u5C11\uFF0C\u4E0D\u8981\u7740\u6025", 8, 101,
-				-12829636);
-		this.font.drawString(ms, "\u4F5C\u8005\u6B63\u5728\u52A0\u6025\u66F4\u65B0\u4E2D", 8, 115, -12829636);
 	}
 
 	@Override
@@ -102,5 +111,23 @@ public class GuidebookGUIGuiWindow extends ContainerScreen<GuidebookGUIGui.GuiCo
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
+		this.addButton(new Button(this.guiLeft + 4, this.guiTop + 140, 40, 20, new StringTextComponent("��һ��"), e -> {
+			if (true) {
+				XIndustryMod.PACKET_HANDLER.sendToServer(new GuidebookGUIGui.ButtonPressedMessage(0, x, y, z));
+				GuidebookGUIGui.handleButtonAction(entity, 0, x, y, z);
+			}
+		}));
+		this.addButton(new Button(this.guiLeft + 62, this.guiTop + 140, 40, 20, new StringTextComponent("�ڶ���"), e -> {
+			if (true) {
+				XIndustryMod.PACKET_HANDLER.sendToServer(new GuidebookGUIGui.ButtonPressedMessage(1, x, y, z));
+				GuidebookGUIGui.handleButtonAction(entity, 1, x, y, z);
+			}
+		}));
+		this.addButton(new Button(this.guiLeft + 121, this.guiTop + 139, 40, 20, new StringTextComponent("������"), e -> {
+			if (true) {
+				XIndustryMod.PACKET_HANDLER.sendToServer(new GuidebookGUIGui.ButtonPressedMessage(2, x, y, z));
+				GuidebookGUIGui.handleButtonAction(entity, 2, x, y, z);
+			}
+		}));
 	}
 }

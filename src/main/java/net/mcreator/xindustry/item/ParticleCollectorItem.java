@@ -4,6 +4,7 @@ package net.mcreator.xindustry.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.world.World;
+import net.minecraft.item.UseAction;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
@@ -38,6 +39,11 @@ public class ParticleCollectorItem extends XIndustryModElements.ModElement {
 		public ItemCustom() {
 			super(new Item.Properties().group(JiChuWuPinItemGroup.tab).maxStackSize(16).rarity(Rarity.COMMON));
 			setRegistryName("particle_collector");
+		}
+
+		@Override
+		public UseAction getUseAction(ItemStack itemstack) {
+			return UseAction.EAT;
 		}
 
 		@Override
